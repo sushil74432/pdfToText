@@ -68,7 +68,7 @@
       
 
         // Full path to uploaded document
-        $filePath = 'C:\Users\Sushil\Documents\4.1 ide-setup.pdf.pdf';
+        $filePath = 'C:\Users\Sushil\Documents\4.1 ide-setup.pdf';
   
         $fp = fopen($filePath, 'r');
         $session = curl_init();
